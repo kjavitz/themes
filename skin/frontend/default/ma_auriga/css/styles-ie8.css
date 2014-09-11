@@ -1,0 +1,17 @@
+.drop-currency:hover .sub-currency, .drop-lang:hover .sub-lang{ top: 95px !important}
+    .header .links a, .header .form-language .drop-lang .drop-trigger a.level-0, .header .form-currency .drop-currency .currency-trigger a.level-0{ width: 75px !important; font-size: 10px !important; height: 30px !important; padding: 55px 10px 10px !important}
+    .header .form-language .drop-lang .drop-trigger a, .header .form-currency .drop-currency .currency-trigger a{ width: 75px !important; font-size: 10px !important}
+    .header .form-search{ width: 175px !important;}
+    .header .form-search input.input-text{ width: 120px !important}
+    #search_mini_form, .top-cart-wrapper{ top: 123px !important}
+    .banner7-title{ width: 460px !important}
+    .banner7-title h3{ font-size: 29px !important}
+    .banner-static-2 .banner-title{ font-size: 17px !important}
+    .static-banner7 .banner-box2{ margin-top: 23px !important}
+    .block-layered-nav dd #search button.button{ margin: 10px 0 0 !important;}
+    .products-list li.item .inbox .zoom-in .actions{ right: 0 !important}
+    .related-product-title { padding: 13px 0 !important}
+    .related-product-title h2{ font-size: 14px !important}
+    .banner-static-contain .banner-box3 a img.down{ display: none !important}
+.banner-static-contain .banner-box3 a:hover img.down{display: block !important}
+.block-layered-nav dd input#amount{ width: 87% !important;}

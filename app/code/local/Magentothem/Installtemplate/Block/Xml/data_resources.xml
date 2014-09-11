@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<auriga>
+    <resources>
+        <resource>
+            <title>Auriga Home page</title>
+            <identifier>auriga_home</identifier>
+            <root_template>one_column</root_template>
+            <content><![CDATA[<div class="home-content">{{block type="featuredproductslider/featuredproductslider" name="featuredproductslider" template="magentothem/featuredproductslider/featuredproductslider.phtml"}} {{block type="page/html" name="banner.static.3" template="magentothem/banner_static_3.phtml"}} {{block type="newproductslider/newproductslider" name="newproductslider" template="magentothem/newproductslider/newproductslider.phtml" }}</div>]]></content>
+            <sort_order>1</sort_order>
+            <is_active>1</is_active>
+        </resource>
+    </resources>
+</auriga>

@@ -1,0 +1,12 @@
+<script type="text/javascript">
+    opConfig    = new Product.QuickviewOptions(<?php echo $this->getJsonConfig() ?>);
+</script>
+
+<?php $_options = Mage::helper('core')->decorateArray($this->getOptions()) ?>
+<?php if (count($_options)): ?>
+    <dl>
+    <?php foreach ($_options as $_option): ?>
+        <?php echo $this->getOptionHtml($_option) ?>
+    <?php endforeach; ?>
+    </dl>
+<?php endif; ?>

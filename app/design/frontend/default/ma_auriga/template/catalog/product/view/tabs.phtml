@@ -1,0 +1,103 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_modern
+ * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/**
+ * Product view template
+ *
+ * @see Mage_Catalog_Block_Product_View
+ */
+?>
+<div id="va-accordion" class="va-container">
+    <?php foreach ($this->getTabs() as $_index => $_tab): ?>
+        <?php if($this->getChildHtml($_tab['alias'])): ?>
+    <div class="va-slice">
+        
+            <h3 id="product_tabs_<?php echo $_tab['alias'] ?>" class="va-title <?php echo !$_index?' active first':(($_index==count($this->getTabs())-1)?' last':'')?>"><?php echo $_tab['title']?>
+            <span class="button"></span>
+            </h3>
+            <div class="va-content product-tabs-content" id="product_tabs_<?php echo $_tab['alias'] ?>_contents"><?php echo $this->getChildHtml($_tab['alias']) ?></div>
+        </div>
+                <?php endif; ?>
+    <?php endforeach; ?>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+
+function setCookie(c_name, value, exdays) {
+    var exdate = new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
+    document.cookie = c_name + "=" + c_value;
+}
+
+function getCookie(c_name) {
+    var i, x, y, ARRcookies = document.cookie.split(";");
+    for (i = 0; i < ARRcookies.length; i++) {
+        x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+        y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+        x = x.replace(/^\s+|\s+$/g, "");
+        if (x == c_name) {
+            return unescape(y);
+        }
+    }
+}
+
+    $jq(function() {
+        $jq('.va-slice').live('click',function(){
+            
+            var active = $jq(this).find('h3').html();
+         
+             Mage.Cookies.set('tab_current', active);
+            var tab_current = Mage.Cookies.get('tab_current');
+                
+            var isChrome = window.chrome;
+            if(isChrome) {
+                setCookie('tab_current', active,11111111);
+               var tab_current = getCookie('tab_current');
+                
+            } 
+
+            if (active != tab_current) { 
+              $jq(this).removeClass('active');
+            } else {
+                $jq('.va-slice').removeClass('active');
+              $jq(this).addClass('active');
+            }
+          
+        });
+        $jq('.active').live('click', function(){
+            $jq(this).toggleClass('active');
+        })
+
+        $jq('div.va-slice> div').hide();  
+          $jq('div.va-slice> h3').click(function() {
+            //$jq(this).toggleClass('active');
+            $jq(this).next('div').slideToggle('fast')
+            .siblings('div:visible').slideUp('fast');
+          });
+    });
+//]]>
+</script>

@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<auriga>
+    <blocks>
+        <block>
+            <title>Banner Static</title>
+            <identifier>home_banner_static</identifier>
+            <content>
+                    <![CDATA[<div class="banner-static-contain">
+<div class="home-banner-static row-fluid">
+<div class="banner-box banner-box1 span4"><a href="{{store direct_url="footwear.html"}}"><img src="{{media url="wysiwyg/banner-static1.jpg"}}" alt="" /></a>
+<div class="banner-hover">
+<div class="bg-top">&nbsp;</div>
+<div class="bg-bottom">
+<div class="title">LOREM IPSUM DOLOR</div>
+<div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+</div>
+</div>
+</div>
+<div class="banner-box banner-box2 span4"><a href="{{store direct_url="men.html"}}"><img src="{{media url="wysiwyg/banner-static2.jpg"}}" alt="" /></a>
+<div class="banner-hover">
+<div class="bg-top">&nbsp;</div>
+<div class="bg-bottom">
+<div class="title">LOREM IPSUM DOLOR</div>
+<div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+</div>
+</div>
+</div>
+<div class="banner-box banner-box3 span4"><a href="{{store direct_url="women.html"}}"><img class="up" src="{{media url="wysiwyg/banner-static3.png"}}" alt="" /><img class="down" src="{{media url="wysiwyg/banner-static4.jpg"}}" alt="" /></a></div>
+</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                      <![CDATA[
+                            <div class="f-col f-col1 span3">
+<div class="footer-static-title">
+<h3>follow us</h3>
+</div>
+<div class="footer-static-content"><a href="#"><img src="{{media url="wysiwyg/twitter.png"}}" alt="" /></a> <a href="#"><img src="{{media url="wysiwyg/skype.png"}}" alt="" /></a> <a href="#"><img src="{{media url="wysiwyg/face.png"}}" alt="" /></a> <a href="#"><img src="{{media url="wysiwyg/youtube.png"}}" alt="" /></a> <a href="#"><img src="{{media url="wysiwyg/in.png"}}" alt="" /></a> <a href="#"><img src="{{media url="wysiwyg/google.png"}}" alt="" /></a> <a href="#"><img src="{{media url="wysiwyg/wireless.png"}}" alt="" /></a></div>
+</div>
+<div class="f-col f-col2 span3">
+<div class="footer-static-title">
+<h3>our service</h3>
+</div>
+<div class="footer-static-content row-fluid">
+<ul>
+<li class="first"><a href="{{store direct_url="sales/order/history/"}}">Order History</a></li>
+<li><a href="{{store direct_url="sales/guest/form/"}}">Returns</a></li>
+<li><a href="#">Venenatis augue tellus</a></li>
+<li><a href="#">My vouchers</a></li>
+<li><a href="{{store direct_url="contacts/"}}">Contact Us</a></li>
+<li class="last"><a href="#">Lorem ipsum dolor</a></li>
+</ul>
+</div>
+</div>
+<div class="f-col f-col3 span3">
+<div class="footer-static-title">
+<h3>information</h3>
+</div>
+<div class="footer-static-content row-fluid">
+<ul>
+<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
+<li><a href="{{store direct_url="customer-service"}}">Customer Services</a></li>
+<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+<li><a href="{{store direct_url="catalog/seo_sitemap/category/"}}">Site Map</a></li>
+<li><a href="{{store direct_url="catalogsearch/term/popular/"}}">Search Terms</a></li>
+<li class="last"><a href="{{store direct_url="catalogsearch/advanced/"}}">Advanced Search</a></li>
+</ul>
+</div>
+</div>
+<div class="f-col f-col4 span3">
+<div class="about-us">
+<div class="footer-static-title">
+<h3>NEWSLETTER</h3>
+</div>
+<div class="footer-static-content">{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}</div>
+</div>
+</div>
+                        ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Banner Left</title>
+            <identifier>banner_left</identifier>
+            <content>
+                      <![CDATA[<div class="block block-banner-left"><a href="#"><img src="{{media url="wysiwyg/banner_left.jpg"}}" alt="" /></a></div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Static Sub Menu Col Right</title>
+            <identifier>pt_menu_idcat_6_right</identifier>
+            <content>
+                      <![CDATA[<div class="sub-menu-col4"><a href="#"><img src="{{media url="wysiwyg/custom_menu1.jpg"}}" alt="" /></a></div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+
+        <block>
+            <title>Static Sub Menu Bottom</title>
+            <identifier>pt_menu_idcat_4</identifier>
+            <content>
+                      <![CDATA[<div class="custom-menu-bottom">
+<div class="row-fluid">
+<div class="span6"><a href="#"><img src="{{media url="wysiwyg/custom_menu_bottom1.jpg"}}" alt="" /></a></div>
+<div class="span6"><a href="#"><img src="{{media url="wysiwyg/custom_menu_bottom2.jpg"}}" alt="" /></a></div>
+</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+
+
+
+        <block>
+            <title>Custom Menu</title>
+            <identifier>pt_item_menu_custom_menu</identifier>
+            <content>
+                   <![CDATA[
+                   <div class="static_block_custom_menu row-fluid">
+<div class="static-menu-img span6"><a href="#"><img src="{{media url="wysiwyg/custom_menu2.jpg"}}" alt="" /></a></div>
+<div class="des span6">
+<div class="title">i'll make your day</div>
+<div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio sapien, tempor eget facilisis eget, dapibus vitae mi. Mauris auctor ultricies eros sit amet bibendum. Etiam dapibus erat sit amet nunc tincidunt ullamcorper. Integer quis tellus ut lorem imperdiet luctus sit amet nec felis. Sed in ipsum dolor, at dignissim sem.</div>
+</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+
+        <block>
+            <title>static banner7</title>
+            <identifier>static_banner7</identifier>
+            <content>
+                 <![CDATA[
+                    <div class="banner-box banner-box1"><a href="{{store direct_url="jewelry.html"}}"><img src="{{media url="wysiwyg/static_banner7_1.jpg"}}" alt="" /></a>
+<div class="banner-hover">
+<div class="bg-top">&nbsp;</div>
+<div class="bg-bottom">
+<div class="title">LOREM IPSUM DOLOR</div>
+<div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+</div>
+</div>
+</div>
+<div class="banner-box banner-box2"><a href="{{store direct_url="accessories.html"}}"><img class="up" src="{{media url="wysiwyg/static_baner7_2.png"}}" alt="" /><img class="down" src="{{media url="wysiwyg/static_banner7_3.jpg"}}" alt="" /></a></div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+
+
+
+        <block>
+            <title>Banner Static 2</title>
+            <identifier>banner_static_2</identifier>
+            <content>
+                 <![CDATA[<div class="banner-static-contain">
+<div class="banner-static-2 row-fluid">
+<div class="span4">
+<div class="banner-box banner-box1">
+<div class="banner-box-container">
+<div class="banner-title">FREE SHIPPING</div>
+<div class="banner-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+</div>
+</div>
+</div>
+<div class="span4">
+<div class="banner-box banner-box2">
+<div class="banner-box-container">
+<div class="banner-title">MONEY BACK GUARANTEE</div>
+<div class="banner-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+</div>
+</div>
+</div>
+<div class="span4">
+<div class="banner-box banner-box3">
+<div class="banner-box-container">
+<div class="banner-title">EASY ORDER</div>
+<div class="banner-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+
+        <block>
+            <title>Banner Static 3</title>
+            <identifier>banner_static_3</identifier>
+            <content>
+                 <![CDATA[
+                 <div class="banner-static3">
+<div class="row-fluid">
+<div class="img1 span6"><a href="#"><img src="{{media url="wysiwyg/banner-static7.jpg"}}" alt="" /></a>
+<div class="title title1">WINTER VINTAGE STYLE</div>
+<div class="title title2">NEW TREND FOR FASHION 2013</div>
+</div>
+<div class="img2 span6"><a href="#"><img src="{{media url="wysiwyg/banner-static6.jpg"}}" alt="" /></a>
+<div class="title">VINTAGE ACCESSORIES</div>
+</div>
+</div>
+</div>
+                 ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+
+
+    </blocks>
+
+</auriga>
+
