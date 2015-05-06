@@ -945,7 +945,7 @@ js/queldorei/mColorPicker/meta100.png                                           
 js/queldorei/mColorPicker/picker.png                                                                               js/queldorei/mColorPicker/picker.png
 js/queldorei/modernizr-2.5.2.min.js                                                                                js/queldorei/modernizr-2.5.2.min.js
 js/queldorei/swipe.js                                                                                              js/queldorei/swipe.js
-lib/Varien/                                                                                                       lib/Varien/
+lib/Varien/Data/Form/Element                                                                                       lib/Varien/Data/Form/Element
 skin/adminhtml/default/default/em_slideshowresponsive/slideshowresponsive.css                                      skin/adminhtml/default/default/em_slideshowresponsive/slideshowresponsive.css
 skin/adminhtml/default/default/em_slideshowresponsive/slideshowresponsive.js                                       skin/adminhtml/default/default/em_slideshowresponsive/slideshowresponsive.js
 skin/adminhtml/default/default/em_slideshowwidget/slideshowwidget.css                                              skin/adminhtml/default/default/em_slideshowwidget/slideshowwidget.css
