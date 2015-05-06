@@ -854,7 +854,6 @@ js/magentothem/jquery.slider.min.js                                             
 js/magentothem/mColorPicker.js                                                                                     js/magentothem/mColorPicker.js
 js/magentothem/ma.flexslider.js                                                                                    js/magentothem/ma.flexslider.js
 js/magentothem/ma.jq.slide.js                                                                                      js/magentothem/ma.jq.slide.js
-js/magentothem/ma.menu.effect - Copy.js                                                                            js/magentothem/ma.menu.effect - Copy.js
 js/magentothem/ma.menu.effect.js                                                                                   js/magentothem/ma.menu.effect.js
 js/magentothem/ma.mobilemenu.js                                                                                    js/magentothem/ma.mobilemenu.js
 js/magentothem/ma.nivo.js                                                                                          js/magentothem/ma.nivo.js
@@ -2506,7 +2505,6 @@ skin/frontend/default/ma_aries_digital/magentothem/quickview/images/bkg_product-
 skin/frontend/default/ma_aries_digital/magentothem/quickview/images/close-popup.png                                skin/frontend/default/ma_aries_digital/magentothem/quickview/images/close-popup.png
 skin/frontend/default/ma_aries_digital/magentothem/quickview/images/popup-next.png                                 skin/frontend/default/ma_aries_digital/magentothem/quickview/images/popup-next.png
 skin/frontend/default/ma_aries_digital/magentothem/quickview/images/popup-prev.png                                 skin/frontend/default/ma_aries_digital/magentothem/quickview/images/popup-prev.png
-skin/frontend/default/ma_aries_digital/magentothem/quickview/images/quick_look - Copy.gif                          skin/frontend/default/ma_aries_digital/magentothem/quickview/images/quick_look - Copy.gif
 skin/frontend/default/ma_aries_digital/magentothem/quickview/images/quick_look.gif                                 skin/frontend/default/ma_aries_digital/magentothem/quickview/images/quick_look.gif
 skin/frontend/default/ma_aries_digital/magentothem/quickview/images/quick_look.png                                 skin/frontend/default/ma_aries_digital/magentothem/quickview/images/quick_look.png
 skin/frontend/default/ma_aries_digital/magentothem/quickview/media/cloudzoom/cloud-zoom.css                        skin/frontend/default/ma_aries_digital/magentothem/quickview/media/cloudzoom/cloud-zoom.css
@@ -2853,7 +2851,6 @@ skin/frontend/default/ma_aries_flower/magentothem/quickview/images/bkg_product-v
 skin/frontend/default/ma_aries_flower/magentothem/quickview/images/close-popup.png                                 skin/frontend/default/ma_aries_flower/magentothem/quickview/images/close-popup.png
 skin/frontend/default/ma_aries_flower/magentothem/quickview/images/popup-next.png                                  skin/frontend/default/ma_aries_flower/magentothem/quickview/images/popup-next.png
 skin/frontend/default/ma_aries_flower/magentothem/quickview/images/popup-prev.png                                  skin/frontend/default/ma_aries_flower/magentothem/quickview/images/popup-prev.png
-skin/frontend/default/ma_aries_flower/magentothem/quickview/images/quick_look - Copy.gif                           skin/frontend/default/ma_aries_flower/magentothem/quickview/images/quick_look - Copy.gif
 skin/frontend/default/ma_aries_flower/magentothem/quickview/images/quick_look.gif                                  skin/frontend/default/ma_aries_flower/magentothem/quickview/images/quick_look.gif
 skin/frontend/default/ma_aries_flower/magentothem/quickview/images/quick_look.png                                  skin/frontend/default/ma_aries_flower/magentothem/quickview/images/quick_look.png
 skin/frontend/default/ma_aries_flower/magentothem/quickview/media/cloudzoom/cloud-zoom.css                         skin/frontend/default/ma_aries_flower/magentothem/quickview/media/cloudzoom/cloud-zoom.css
@@ -3186,7 +3183,6 @@ skin/frontend/default/ma_auriga/magentothem/colortool/images/bg-green-red.png   
 skin/frontend/default/ma_auriga/magentothem/colortool/images/button_default.png                                    skin/frontend/default/ma_auriga/magentothem/colortool/images/button_default.png
 skin/frontend/default/ma_auriga/magentothem/colortool/images/button_default_hover.png                              skin/frontend/default/ma_auriga/magentothem/colortool/images/button_default_hover.png
 skin/frontend/default/ma_auriga/magentothem/colortool/images/cl-wrap.jpg                                           skin/frontend/default/ma_auriga/magentothem/colortool/images/cl-wrap.jpg
-skin/frontend/default/ma_auriga/magentothem/colortool/images/close - Copy.png                                      skin/frontend/default/ma_auriga/magentothem/colortool/images/close - Copy.png
 skin/frontend/default/ma_auriga/magentothem/colortool/images/close-icon.png                                        skin/frontend/default/ma_auriga/magentothem/colortool/images/close-icon.png
 skin/frontend/default/ma_auriga/magentothem/colortool/images/close.png                                             skin/frontend/default/ma_auriga/magentothem/colortool/images/close.png
 skin/frontend/default/ma_auriga/magentothem/colortool/images/color-box.png                                         skin/frontend/default/ma_auriga/magentothem/colortool/images/color-box.png
@@ -3200,7 +3196,6 @@ skin/frontend/default/ma_auriga/magentothem/colortool/images/layout1.jpg        
 skin/frontend/default/ma_auriga/magentothem/colortool/images/layout2.jpg                                           skin/frontend/default/ma_auriga/magentothem/colortool/images/layout2.jpg
 skin/frontend/default/ma_auriga/magentothem/colortool/images/line-hor.png                                          skin/frontend/default/ma_auriga/magentothem/colortool/images/line-hor.png
 skin/frontend/default/ma_auriga/magentothem/colortool/images/line-vert.png                                         skin/frontend/default/ma_auriga/magentothem/colortool/images/line-vert.png
-skin/frontend/default/ma_auriga/magentothem/colortool/images/open - Copy.png                                       skin/frontend/default/ma_auriga/magentothem/colortool/images/open - Copy.png
 skin/frontend/default/ma_auriga/magentothem/colortool/images/open.png                                              skin/frontend/default/ma_auriga/magentothem/colortool/images/open.png
 skin/frontend/default/ma_auriga/magentothem/colortool/images/panel_bgr.jpg                                         skin/frontend/default/ma_auriga/magentothem/colortool/images/panel_bgr.jpg
 skin/frontend/default/ma_auriga/magentothem/colortool/images/panel_bgr.png                                         skin/frontend/default/ma_auriga/magentothem/colortool/images/panel_bgr.png
@@ -3290,7 +3285,6 @@ skin/frontend/default/ma_auriga/magentothem/quickview/images/bkg_product-view.gi
 skin/frontend/default/ma_auriga/magentothem/quickview/images/close-popup.png                                       skin/frontend/default/ma_auriga/magentothem/quickview/images/close-popup.png
 skin/frontend/default/ma_auriga/magentothem/quickview/images/popup-next.png                                        skin/frontend/default/ma_auriga/magentothem/quickview/images/popup-next.png
 skin/frontend/default/ma_auriga/magentothem/quickview/images/popup-prev.png                                        skin/frontend/default/ma_auriga/magentothem/quickview/images/popup-prev.png
-skin/frontend/default/ma_auriga/magentothem/quickview/images/quick_look - Copy.gif                                 skin/frontend/default/ma_auriga/magentothem/quickview/images/quick_look - Copy.gif
 skin/frontend/default/ma_auriga/magentothem/quickview/images/quick_look.gif                                        skin/frontend/default/ma_auriga/magentothem/quickview/images/quick_look.gif
 skin/frontend/default/ma_auriga/magentothem/quickview/images/quick_look.png                                        skin/frontend/default/ma_auriga/magentothem/quickview/images/quick_look.png
 skin/frontend/default/ma_auriga/magentothem/quickview/media/cloudzoom/cloud-zoom.css                               skin/frontend/default/ma_auriga/magentothem/quickview/media/cloudzoom/cloud-zoom.css
